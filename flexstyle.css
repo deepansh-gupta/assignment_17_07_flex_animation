@@ -1,0 +1,83 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    
+    background-image: linear-gradient(to bottom right, #e95420, #772953);
+    
+}
+header{
+    margin: 20px;
+    height: 30px;
+    color:#fff ;
+    border: 1px solid #fff ;
+    text-align: center;
+    padding-top:15px;
+    background-color: rgba(255, 255, 255, 0.25);
+}
+
+#main{
+    margin: 20px;
+    margin-top: 10px;
+    border: 1px solid #fff;
+    background-color: rgba(255, 255, 255, 0.25);
+    /* float: left;
+    min-width: 1320px; */
+   display: flex;
+   flex-direction: row;
+}
+
+
+#content{
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #fff;
+    background-color: rgba(255, 255, 255, 0.25);
+    /* width: 900px;
+    height: 400px;
+    float: left; */
+    text-align: center;
+    flex-wrap: wrap;
+
+}
+
+#secondary{
+    margin-top: 20px;
+    
+    
+    padding: 10px;
+    border: 1px solid #fff;
+    background-color: rgba(255, 255, 255, 0.25);
+    /* float: left;
+    width: 120px;
+    height: 400px; */
+    flex-wrap: wrap;
+    height: 400px;
+    text-align: center;    
+}
+
+#tertiary{
+    margin: 20px;
+    margin-left: 20px;
+    padding: 10px;
+    border: 1px solid #fff;
+    background-color: rgba(255, 255, 255, 0.25);
+    /* width: 120px;
+    height: 400px;
+    float: left; */
+    flex-wrap: wrap;
+    height: 400px;
+    text-align: center;
+    
+}
+
+footer{
+    clear: both;
+    margin: 20px;
+    height: 30px;
+    color:#fff ;
+    border: 1px solid #fff ;
+    text-align: center;
+    padding-top:15px;
+    background-color: rgba(255, 255, 255, 0.25);
+}
+
