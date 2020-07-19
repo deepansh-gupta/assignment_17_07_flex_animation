@@ -37,6 +37,7 @@ header{
     float: left; */
     text-align: center;
     flex-wrap: wrap;
+    order: 2;
 
 }
 
@@ -52,7 +53,8 @@ header{
     height: 400px; */
     flex-wrap: wrap;
     height: 400px;
-    text-align: center;    
+    text-align: center;
+    order: 1;
 }
 
 #tertiary{
@@ -67,6 +69,7 @@ header{
     flex-wrap: wrap;
     height: 400px;
     text-align: center;
+    order: 3;
     
 }
 
